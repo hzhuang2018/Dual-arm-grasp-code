@@ -1,0 +1,1 @@
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\x64\Release\ur_trajectory_proj.vcxproj.CopyComplete

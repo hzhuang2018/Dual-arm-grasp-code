@@ -1,0 +1,28 @@
+﻿  cartesian_space_track_ur.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\src\vcpkg\installed\x64-windows\include\boost\bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+C:\3rdparties\eigen\Eigen\src\Core\arch\CUDA\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\3rdparties\opencv\include\opencv2\core\eigen.hpp(55,1): warning C4005: “NOMINMAX”: 宏重定义
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp : message : 参见“NOMINMAX”的前一个定义
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1113,11): warning C4101: “q_temp”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1182,11): warning C4101: “q_temp”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1285,36): warning C4101: “df_quat_temp”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1287,24): warning C4101: “p_temp”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1287,10): warning C4101: “p1”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1287,17): warning C4101: “p2”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1393,36): warning C4101: “df_quat_temp”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1395,24): warning C4101: “p_temp”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1395,10): warning C4101: “p1”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1395,17): warning C4101: “p2”: 未引用的局部变量
+E:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(2239,78): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+    正在创建库 E:\WORK\robotic_grasp\robotic_grasp\x64\Release\robotic_grasp.lib 和对象 E:\WORK\robotic_grasp\robotic_grasp\x64\Release\robotic_grasp.exp
+  正在生成代码
+  138 of 27294 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    498 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  robotic_grasp.vcxproj -> E:\WORK\robotic_grasp\robotic_grasp\x64\Release\robotic_grasp.dll

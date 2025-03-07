@@ -1,0 +1,608 @@
+﻿  abstract_controller_ur.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(175,32): warning C4251: “ur_sdk::connection::socket_”: class“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\ip\tcp.hpp(83): message : 参见“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”的声明
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(181,15): warning C4251: “ur_sdk::connection::outbound_header_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(184,15): warning C4251: “ur_sdk::connection::outbound_data_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190,21): warning C4251: “ur_sdk::connection::inbound_data_”: class“std::vector<char,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190): message : 参见“std::vector<char,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(88,23): warning C4251: “ur_sdk::client::q_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(89,23): warning C4251: “ur_sdk::client::qd_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(94,17): warning C4251: “ur_sdk::client::of_ur_”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd(233): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(96,28): warning C4251: “ur_sdk::client::start_time_”: class“boost::posix_time::ptime”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\ptime.hpp(32): message : 参见“boost::posix_time::ptime”的声明
+C:\3rdparties\eigen\Eigen\src\Core\arch\CUDA\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(51,23): warning C4251: “Robot::AbstractControllerUR::q_pos_target”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(52,23): warning C4251: “Robot::AbstractControllerUR::qcd”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(53,23): warning C4251: “Robot::AbstractControllerUR::qcd_pre”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(58,28): warning C4251: “Robot::AbstractControllerUR::start_time”: class“boost::posix_time::ptime”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\ptime.hpp(32): message : 参见“boost::posix_time::ptime”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(59,36): warning C4251: “Robot::AbstractControllerUR::elapsed_time”: class“boost::posix_time::time_duration”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\posix_time_config.hpp(57): message : 参见“boost::posix_time::time_duration”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(60,36): warning C4251: “Robot::AbstractControllerUR::elapsed_time_pre”: class“boost::posix_time::time_duration”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\posix_time_config.hpp(57): message : 参见“boost::posix_time::time_duration”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(63,19): warning C4251: “Robot::AbstractControllerUR::q”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(64,19): warning C4251: “Robot::AbstractControllerUR::qd”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(65,19): warning C4251: “Robot::AbstractControllerUR::qc”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(71,19): warning C4251: “Robot::AbstractControllerUR::integral_q_qc”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(76,19): warning C4251: “Robot::AbstractControllerUR::q_remote”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(77,19): warning C4251: “Robot::AbstractControllerUR::qd_remote”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(79,17): warning C4251: “Robot::AbstractControllerUR::of”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd(233): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(531,5): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(530): message : 在编译 类 模板 成员函数“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”时
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1585): message : 查看对正在编译的函数 模板 实例化“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(1119): message : 查看对正在编译的 类 模板 实例化“boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\detail\buffered_stream_storage.hpp(58): message : 查看对正在编译的函数 模板 实例化“boost::asio::mutable_buffers_1 boost::asio::buffer<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>>(std::vector<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>> &)”的引用
+  camera.cpp
+C:\3rdparties\eigen\Eigen\src\Core\arch\CUDA\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Unknown compiler version - please run the configure tests and report the results
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(57,46): error C2116: “GetSystemTimeAsFileTime”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h(110): message : 参见“GetSystemTimeAsFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(57,46): error C2733: “GetSystemTimeAsFileTime”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h(110,1): message : 参见“GetSystemTimeAsFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(58,45): error C2116: “FileTimeToLocalFileTime”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(183): message : 参见“FileTimeToLocalFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(58,45): error C2733: “FileTimeToLocalFileTime”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(183,1): message : 参见“FileTimeToLocalFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(59,46): error C2116: “GetSystemTime”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h(102): message : 参见“GetSystemTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(59,46): error C2733: “GetSystemTime”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h(102,1): message : 参见“GetSystemTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(60,45): error C2116: “SystemTimeToFileTime”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\timezoneapi.h(93): message : 参见“SystemTimeToFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(60,45): error C2733: “SystemTimeToFileTime”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\timezoneapi.h(93,1): message : 参见“SystemTimeToFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(173,55): error C2116: “CreateMutexA”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(422): message : 参见“CreateMutexA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(173,55): error C2733: “CreateMutexA”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(422,1): message : 参见“CreateMutexA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(174,55): error C2116: “CreateSemaphoreA”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(3170): message : 参见“CreateSemaphoreA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(174,55): error C2733: “CreateSemaphoreA”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(3170,1): message : 参见“CreateSemaphoreA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(175,55): error C2116: “CreateEventA”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(463): message : 参见“CreateEventA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(175,55): error C2733: “CreateEventA”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(463,1): message : 参见“CreateEventA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(177,55): error C2371: “GetModuleHandleA”: 重定义；不同的基类型
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(260): message : 参见“GetModuleHandleA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(177,55): error C2733: “GetModuleHandleA”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(260,1): message : 参见“GetModuleHandleA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(197,59): error C2116: “GetProcAddress”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(342): message : 参见“GetProcAddress”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(197,59): error C2733: “GetProcAddress”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(342,1): message : 参见“GetProcAddress”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(142,77): warning C4275: 非 dll 接口 class“Pylon::CBaslerGigECameraEventHandler”用作 dll 接口 class“Robot::CEventHandler”的基
+C:\Program Files\Basler\pylon 6\Development\include\pylon\gige\BaslerGigECameraEventHandler.h(35): message : 参见“Pylon::CBaslerGigECameraEventHandler”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(142): message : 参见“Robot::CEventHandler”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(143,1): warning C4275: 非 dll 接口 class“Pylon::CBaslerGigEImageEventHandler”用作 dll 接口 class“Robot::CEventHandler”的基
+C:\Program Files\Basler\pylon 6\Development\include\pylon\gige\BaslerGigEImageEventHandler.h(35): message : 参见“Pylon::CBaslerGigEImageEventHandler”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(142): message : 参见“Robot::CEventHandler”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(258,26): warning C4251: “Robot::CEventHandler::m_log”: class“std::vector<Robot::LogItem,std::allocator<Robot::LogItem>>”需要有 dll 接口由 class“Robot::CEventHandler”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(258): message : 参见“std::vector<Robot::LogItem,std::allocator<Robot::LogItem>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(263,25): warning C4251: “Robot::ImageBuffer::buffer”: class“std::vector<cv::Mat,std::allocator<cv::Mat>>”需要有 dll 接口由 struct“Robot::ImageBuffer”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(193): message : 参见“std::vector<cv::Mat,std::allocator<cv::Mat>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(264,20): warning C4251: “Robot::ImageBuffer::write_pos”: struct“std::atomic<int>”需要有 dll 接口由 struct“Robot::ImageBuffer”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2866): message : 参见“std::atomic<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(312,12): warning C4251: “Robot::BaslerCamera::camera”: class“Pylon::CBaslerGigEInstantCamera”需要有 dll 接口由 class“Robot::BaslerCamera”的客户端使用
+C:\Program Files\Basler\pylon 6\Development\include\pylon\gige\BaslerGigEInstantCamera.h(83): message : 参见“Pylon::CBaslerGigEInstantCamera”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(316,23): warning C4251: “Robot::BaslerCamera::grabThread”: class“boost::thread”需要有 dll 接口由 class“Robot::BaslerCamera”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\thread\detail\thread.hpp(159): message : 参见“boost::thread”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(317,22): warning C4251: “Robot::BaslerCamera::imageMutex”: class“boost::mutex”需要有 dll 接口由 class“Robot::BaslerCamera”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\mutex.hpp(25): message : 参见“boost::mutex”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(366,19): warning C4251: “Robot::BaslerStereoCamera::R_ext”: class“Eigen::Matrix<double,3,3,0,3,3>”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,3,0,3,3>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(367,19): warning C4251: “Robot::BaslerStereoCamera::t_ext”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(370,11): warning C4251: “Robot::BaslerStereoCamera::left_rmap_1”: class“cv::Mat”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(370,24): warning C4251: “Robot::BaslerStereoCamera::left_rmap_2”: class“cv::Mat”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(371,11): warning C4251: “Robot::BaslerStereoCamera::right_rmap_1”: class“cv::Mat”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(371,25): warning C4251: “Robot::BaslerStereoCamera::right_rmap_2”: class“cv::Mat”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\src\camera.cpp(54,17): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\WORK\robotic_grasp\robotic_grasp\src\camera.cpp(108,37): warning C4244: “参数”: 从“double”转换到“int64_t”，可能丢失数据
+D:\WORK\robotic_grasp\robotic_grasp\src\camera.cpp(351,46): warning C4244: “参数”: 从“double”转换到“int64_t”，可能丢失数据
+D:\WORK\robotic_grasp\robotic_grasp\src\camera.cpp(361,47): warning C4244: “参数”: 从“double”转换到“int64_t”，可能丢失数据
+  cartesian_space_track_ur.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(175,32): warning C4251: “ur_sdk::connection::socket_”: class“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\ip\tcp.hpp(83): message : 参见“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”的声明
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(181,15): warning C4251: “ur_sdk::connection::outbound_header_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(184,15): warning C4251: “ur_sdk::connection::outbound_data_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190,21): warning C4251: “ur_sdk::connection::inbound_data_”: class“std::vector<char,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190): message : 参见“std::vector<char,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(88,23): warning C4251: “ur_sdk::client::q_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(89,23): warning C4251: “ur_sdk::client::qd_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(94,17): warning C4251: “ur_sdk::client::of_ur_”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd(233): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(96,28): warning C4251: “ur_sdk::client::start_time_”: class“boost::posix_time::ptime”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\ptime.hpp(32): message : 参见“boost::posix_time::ptime”的声明
+C:\3rdparties\eigen\Eigen\src\Core\arch\CUDA\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(51,23): warning C4251: “Robot::AbstractControllerUR::q_pos_target”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(52,23): warning C4251: “Robot::AbstractControllerUR::qcd”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(53,23): warning C4251: “Robot::AbstractControllerUR::qcd_pre”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(58,28): warning C4251: “Robot::AbstractControllerUR::start_time”: class“boost::posix_time::ptime”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\ptime.hpp(32): message : 参见“boost::posix_time::ptime”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(59,36): warning C4251: “Robot::AbstractControllerUR::elapsed_time”: class“boost::posix_time::time_duration”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\posix_time_config.hpp(57): message : 参见“boost::posix_time::time_duration”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(60,36): warning C4251: “Robot::AbstractControllerUR::elapsed_time_pre”: class“boost::posix_time::time_duration”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\posix_time_config.hpp(57): message : 参见“boost::posix_time::time_duration”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(63,19): warning C4251: “Robot::AbstractControllerUR::q”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(64,19): warning C4251: “Robot::AbstractControllerUR::qd”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(65,19): warning C4251: “Robot::AbstractControllerUR::qc”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(71,19): warning C4251: “Robot::AbstractControllerUR::integral_q_qc”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(76,19): warning C4251: “Robot::AbstractControllerUR::q_remote”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(77,19): warning C4251: “Robot::AbstractControllerUR::qd_remote”: class“Eigen::Matrix<double,-1,1,0,-1,1>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,-1,1,0,-1,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\abstract_controller_ur.h(79,17): warning C4251: “Robot::AbstractControllerUR::of”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“Robot::AbstractControllerUR”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd(233): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(75,19): warning C4251: “Robot::CartesianSpaceTrackUR::x”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(76,31): warning C4251: “Robot::CartesianSpaceTrackUR::Ttool_to_base”: class“Eigen::Matrix<double,4,4,0,4,4>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,4,4,0,4,4>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(77,23): warning C4251: “Robot::CartesianSpaceTrackUR::pos_pre”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(79,24): warning C4251: “Robot::CartesianSpaceTrackUR::q_position”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(83,31): warning C4251: “Robot::CartesianSpaceTrackUR::res_predict”: class“Eigen::Matrix<double,6,1,0,6,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(83): message : 参见“Eigen::Matrix<double,6,1,0,6,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(87,23): warning C4251: “Robot::CartesianSpaceTrackUR::tool_force_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(88,23): warning C4251: “Robot::CartesianSpaceTrackUR::tool_coordinate_system_force_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(89,23): warning C4251: “Robot::CartesianSpaceTrackUR::tcp_speed_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(90,19): warning C4251: “Robot::CartesianSpaceTrackUR::tool_force_preset_”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(100,19): warning C4251: “Robot::CartesianSpaceTrackUR::xd”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(102,19): warning C4251: “Robot::CartesianSpaceTrackUR::R”: class“Eigen::Matrix<double,3,3,0,3,3>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,3,0,3,3>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(103,19): warning C4251: “Robot::CartesianSpaceTrackUR::w”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(105,19): warning C4251: “Robot::CartesianSpaceTrackUR::R_des”: class“Eigen::Matrix<double,3,3,0,3,3>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,3,0,3,3>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(106,19): warning C4251: “Robot::CartesianSpaceTrackUR::w_des”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(107,19): warning C4251: “Robot::CartesianSpaceTrackUR::wd_des”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(108,19): warning C4251: “Robot::CartesianSpaceTrackUR::x_des”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(109,19): warning C4251: “Robot::CartesianSpaceTrackUR::xd_des”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(110,19): warning C4251: “Robot::CartesianSpaceTrackUR::xdd_des”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\cartesian_space_track_ur.h(114,31): warning C4251: “Robot::CartesianSpaceTrackUR::J”: class“Eigen::Matrix<double,6,6,0,6,6>”需要有 dll 接口由 class“Robot::CartesianSpaceTrackUR”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\MatrixBase.h(94): message : 参见“Eigen::Matrix<double,6,6,0,6,6>”的声明
+C:\3rdparties\opencv\include\opencv2\core\eigen.hpp(55,1): warning C4005: “NOMINMAX”: 宏重定义
+C:\3rdparties\boost_1_64_0_\boost\asio\detail\config.hpp(634): message : 参见“NOMINMAX”的前一个定义
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(989,11): warning C4101: “q_temp”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1104,36): warning C4101: “df_quat_temp”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1106,24): warning C4101: “p_temp”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1106,10): warning C4101: “p1”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1106,17): warning C4101: “p2”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1212,36): warning C4101: “df_quat_temp”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1214,24): warning C4101: “p_temp”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1214,10): warning C4101: “p1”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1214,17): warning C4101: “p2”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\src\cartesian_space_track_ur.cpp(1828,78): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(531,5): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(530): message : 在编译 类 模板 成员函数“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”时
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1585): message : 查看对正在编译的函数 模板 实例化“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(1119): message : 查看对正在编译的 类 模板 实例化“boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\detail\buffered_stream_storage.hpp(58): message : 查看对正在编译的函数 模板 实例化“boost::asio::mutable_buffers_1 boost::asio::buffer<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>>(std::vector<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>> &)”的引用
+  data_logger.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(175,32): warning C4251: “ur_sdk::connection::socket_”: class“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\ip\tcp.hpp(83): message : 参见“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”的声明
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(181,15): warning C4251: “ur_sdk::connection::outbound_header_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(184,15): warning C4251: “ur_sdk::connection::outbound_data_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190,21): warning C4251: “ur_sdk::connection::inbound_data_”: class“std::vector<char,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190): message : 参见“std::vector<char,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(88,23): warning C4251: “ur_sdk::client::q_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(89,23): warning C4251: “ur_sdk::client::qd_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(94,17): warning C4251: “ur_sdk::client::of_ur_”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd(233): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(96,28): warning C4251: “ur_sdk::client::start_time_”: class“boost::posix_time::ptime”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\ptime.hpp(32): message : 参见“boost::posix_time::ptime”的声明
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(531,5): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(530): message : 在编译 类 模板 成员函数“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”时
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1585): message : 查看对正在编译的函数 模板 实例化“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(1119): message : 查看对正在编译的 类 模板 实例化“boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\detail\buffered_stream_storage.hpp(58): message : 查看对正在编译的函数 模板 实例化“boost::asio::mutable_buffers_1 boost::asio::buffer<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>>(std::vector<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>> &)”的引用
+  joint_space_control.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(175,32): warning C4251: “ur_sdk::connection::socket_”: class“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\ip\tcp.hpp(83): message : 参见“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”的声明
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(181,15): warning C4251: “ur_sdk::connection::outbound_header_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(184,15): warning C4251: “ur_sdk::connection::outbound_data_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190,21): warning C4251: “ur_sdk::connection::inbound_data_”: class“std::vector<char,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190): message : 参见“std::vector<char,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(88,23): warning C4251: “ur_sdk::client::q_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(89,23): warning C4251: “ur_sdk::client::qd_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(94,17): warning C4251: “ur_sdk::client::of_ur_”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd(233): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(96,28): warning C4251: “ur_sdk::client::start_time_”: class“boost::posix_time::ptime”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\ptime.hpp(32): message : 参见“boost::posix_time::ptime”的声明
+C:\3rdparties\eigen\Eigen\src\Core\arch\CUDA\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\WORK\robotic_grasp\robotic_grasp\include\joint_space_control.h(52,28): warning C4251: “controllers::Joint_Space_Control::start_time_”: class“boost::posix_time::ptime”需要有 dll 接口由 class“controllers::Joint_Space_Control”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\ptime.hpp(32): message : 参见“boost::posix_time::ptime”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\joint_space_control.h(53,36): warning C4251: “controllers::Joint_Space_Control::elapsed_time_”: class“boost::posix_time::time_duration”需要有 dll 接口由 class“controllers::Joint_Space_Control”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\posix_time_config.hpp(57): message : 参见“boost::posix_time::time_duration”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\joint_space_control.h(55,23): warning C4251: “controllers::Joint_Space_Control::q_actual_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“controllers::Joint_Space_Control”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\joint_space_control.h(56,23): warning C4251: “controllers::Joint_Space_Control::qd_actual_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“controllers::Joint_Space_Control”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\joint_space_control.h(57,23): warning C4251: “controllers::Joint_Space_Control::q_target_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“controllers::Joint_Space_Control”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\joint_space_control.h(58,23): warning C4251: “controllers::Joint_Space_Control::qd_target_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“controllers::Joint_Space_Control”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\joint_space_control.h(61,23): warning C4251: “controllers::Joint_Space_Control::start_position_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“controllers::Joint_Space_Control”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\joint_space_control.h(63,17): warning C4251: “controllers::Joint_Space_Control::of_”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“controllers::Joint_Space_Control”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd(233): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(531,5): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(530): message : 在编译 类 模板 成员函数“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”时
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1585): message : 查看对正在编译的函数 模板 实例化“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(1119): message : 查看对正在编译的 类 模板 实例化“boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\detail\buffered_stream_storage.hpp(58): message : 查看对正在编译的函数 模板 实例化“boost::asio::mutable_buffers_1 boost::asio::buffer<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>>(std::vector<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>> &)”的引用
+  robotic_calibration.cpp
+C:\3rdparties\eigen\Eigen\src\Core\arch\CUDA\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(48,12): warning C4251: “Robot::MonoCameraCalibration::board_size”: class“cv::Size_<int>”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\check.hpp(72): message : 参见“cv::Size_<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(51,19): warning C4251: “Robot::MonoCameraCalibration::images”: class“std::vector<cv::Mat,std::allocator<cv::Mat>>”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(193): message : 参见“std::vector<cv::Mat,std::allocator<cv::Mat>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(52,12): warning C4251: “Robot::MonoCameraCalibration::image_size”: class“cv::Size_<int>”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\check.hpp(72): message : 参见“cv::Size_<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(53,15): warning C4251: “Robot::MonoCameraCalibration::valid_indexes”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\types.hpp(749): message : 参见“std::vector<int,std::allocator<int>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(54,31): warning C4251: “Robot::MonoCameraCalibration::corners”: class“std::vector<std::vector<cv::Point2f,std::allocator<cv::Point2f>>,std::allocator<std::vector<cv::Point2f,std::allocator<cv::Point2f>>>>”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\imgproc.hpp(1132): message : 参见“std::vector<std::vector<cv::Point2f,std::allocator<cv::Point2f>>,std::allocator<std::vector<cv::Point2f,std::allocator<cv::Point2f>>>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(55,31): warning C4251: “Robot::MonoCameraCalibration::coordinates”: class“std::vector<std::vector<cv::Point3f,std::allocator<cv::Point3f>>,std::allocator<std::vector<cv::Point3f,std::allocator<cv::Point3f>>>>”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(55): message : 参见“std::vector<std::vector<cv::Point3f,std::allocator<cv::Point3f>>,std::allocator<std::vector<cv::Point3f,std::allocator<cv::Point3f>>>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(58,19): warning C4251: “Robot::MonoCameraCalibration::rots”: class“std::vector<cv::Mat,std::allocator<cv::Mat>>”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(193): message : 参见“std::vector<cv::Mat,std::allocator<cv::Mat>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(59,19): warning C4251: “Robot::MonoCameraCalibration::trans”: class“std::vector<cv::Mat,std::allocator<cv::Mat>>”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(193): message : 参见“std::vector<cv::Mat,std::allocator<cv::Mat>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(60,11): warning C4251: “Robot::MonoCameraCalibration::dist_coeff”: class“cv::Mat”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(61,11): warning C4251: “Robot::MonoCameraCalibration::K”: class“cv::Mat”需要有 dll 接口由 class“Robot::MonoCameraCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(83,12): warning C4251: “Robot::StereoCalibration::winSize”: class“cv::Size_<int>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\check.hpp(72): message : 参见“cv::Size_<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(84,12): warning C4251: “Robot::StereoCalibration::imageSize”: class“cv::Size_<int>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\check.hpp(72): message : 参见“cv::Size_<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(86,19): warning C4251: “Robot::StereoCalibration::left_imgs”: class“std::vector<cv::Mat,std::allocator<cv::Mat>>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(193): message : 参见“std::vector<cv::Mat,std::allocator<cv::Mat>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(87,19): warning C4251: “Robot::StereoCalibration::right_imgs”: class“std::vector<cv::Mat,std::allocator<cv::Mat>>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(193): message : 参见“std::vector<cv::Mat,std::allocator<cv::Mat>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(90,11): warning C4251: “Robot::StereoCalibration::K_left”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(91,11): warning C4251: “Robot::StereoCalibration::K_right”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(93,11): warning C4251: “Robot::StereoCalibration::dist_coeffs_left”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(94,11): warning C4251: “Robot::StereoCalibration::dist_coeffs_right”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(96,11): warning C4251: “Robot::StereoCalibration::R”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(97,11): warning C4251: “Robot::StereoCalibration::t”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(98,11): warning C4251: “Robot::StereoCalibration::E”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(99,11): warning C4251: “Robot::StereoCalibration::F”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(100,11): warning C4251: “Robot::StereoCalibration::R1”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(101,11): warning C4251: “Robot::StereoCalibration::R2”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(102,11): warning C4251: “Robot::StereoCalibration::P1”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(103,11): warning C4251: “Robot::StereoCalibration::P2”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(104,11): warning C4251: “Robot::StereoCalibration::Q”: class“cv::Mat”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(105,12): warning C4251: “Robot::StereoCalibration::validRoi_left”: class“cv::Rect_<int>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\types.hpp(459): message : 参见“cv::Rect_<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(106,12): warning C4251: “Robot::StereoCalibration::validRoi_right”: class“cv::Rect_<int>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\types.hpp(459): message : 参见“cv::Rect_<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(108,31): warning C4251: “Robot::StereoCalibration::left_corners”: class“std::vector<std::vector<cv::Point2f,std::allocator<cv::Point2f>>,std::allocator<std::vector<cv::Point2f,std::allocator<cv::Point2f>>>>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\imgproc.hpp(1132): message : 参见“std::vector<std::vector<cv::Point2f,std::allocator<cv::Point2f>>,std::allocator<std::vector<cv::Point2f,std::allocator<cv::Point2f>>>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(109,31): warning C4251: “Robot::StereoCalibration::right_corners”: class“std::vector<std::vector<cv::Point2f,std::allocator<cv::Point2f>>,std::allocator<std::vector<cv::Point2f,std::allocator<cv::Point2f>>>>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\imgproc.hpp(1132): message : 参见“std::vector<std::vector<cv::Point2f,std::allocator<cv::Point2f>>,std::allocator<std::vector<cv::Point2f,std::allocator<cv::Point2f>>>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(111,23): warning C4251: “Robot::StereoCalibration::obj_point”: class“std::vector<cv::Point3f,std::allocator<cv::Point3f>>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(55): message : 参见“std::vector<cv::Point3f,std::allocator<cv::Point3f>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(116,12): warning C4251: “Robot::StereoCalibration::pattern_size”: class“cv::Size_<int>”需要有 dll 接口由 class“Robot::StereoCalibration”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\check.hpp(72): message : 参见“cv::Size_<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(149,15): warning C4251: “Robot::RobotCameraCalibration::Rg”: class“std::vector<Robot::Rot,std::allocator<Robot::Rot>>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(45): message : 参见“std::vector<Robot::Rot,std::allocator<Robot::Rot>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(150,15): warning C4251: “Robot::RobotCameraCalibration::tg”: class“std::vector<Robot::Vec,std::allocator<Robot::Vec>>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(46): message : 参见“std::vector<Robot::Vec,std::allocator<Robot::Vec>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(152,15): warning C4251: “Robot::RobotCameraCalibration::Rc”: class“std::vector<Robot::Rot,std::allocator<Robot::Rot>>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(45): message : 参见“std::vector<Robot::Rot,std::allocator<Robot::Rot>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(153,15): warning C4251: “Robot::RobotCameraCalibration::tc”: class“std::vector<Robot::Vec,std::allocator<Robot::Vec>>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(46): message : 参见“std::vector<Robot::Vec,std::allocator<Robot::Vec>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(156,15): warning C4251: “Robot::RobotCameraCalibration::Rgij”: class“std::vector<Robot::Rot,std::allocator<Robot::Rot>>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(45): message : 参见“std::vector<Robot::Rot,std::allocator<Robot::Rot>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(157,15): warning C4251: “Robot::RobotCameraCalibration::tgij”: class“std::vector<Robot::Vec,std::allocator<Robot::Vec>>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(46): message : 参见“std::vector<Robot::Vec,std::allocator<Robot::Vec>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(158,15): warning C4251: “Robot::RobotCameraCalibration::Rcij”: class“std::vector<Robot::Rot,std::allocator<Robot::Rot>>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(45): message : 参见“std::vector<Robot::Rot,std::allocator<Robot::Rot>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(159,15): warning C4251: “Robot::RobotCameraCalibration::tcij”: class“std::vector<Robot::Vec,std::allocator<Robot::Vec>>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(46): message : 参见“std::vector<Robot::Vec,std::allocator<Robot::Vec>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(162,7): warning C4251: “Robot::RobotCameraCalibration::Rcg”: class“Eigen::Matrix<double,3,3,0,3,3>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,3,0,3,3>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\robotic_calibration.h(163,7): warning C4251: “Robot::RobotCameraCalibration::tcg”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::RobotCameraCalibration”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\src\robotic_calibration.cpp(324,26): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  ur_sdk.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(175,32): warning C4251: “ur_sdk::connection::socket_”: class“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\ip\tcp.hpp(83): message : 参见“boost::asio::basic_stream_socket<boost::asio::ip::tcp,boost::asio::stream_socket_service<Protocol>>”的声明
+          with
+          [
+              Protocol=boost::asio::ip::tcp
+          ]
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(181,15): warning C4251: “ur_sdk::connection::outbound_header_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(184,15): warning C4251: “ur_sdk::connection::outbound_data_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190,21): warning C4251: “ur_sdk::connection::inbound_data_”: class“std::vector<char,std::allocator<char>>”需要有 dll 接口由 class“ur_sdk::connection”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(190): message : 参见“std::vector<char,std::allocator<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(88,23): warning C4251: “ur_sdk::client::q_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(89,23): warning C4251: “ur_sdk::client::qd_”: class“std::vector<double,std::allocator<double>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\serialization\vector.hpp(230): message : 参见“std::vector<double,std::allocator<double>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(94,17): warning C4251: “ur_sdk::client::of_ur_”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd(233): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\ur_sdk.h(96,28): warning C4251: “ur_sdk::client::start_time_”: class“boost::posix_time::ptime”需要有 dll 接口由 class“ur_sdk::client”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\date_time\posix_time\ptime.hpp(32): message : 参见“boost::posix_time::ptime”的声明
+D:\WORK\robotic_grasp\robotic_grasp\src\ur_sdk.cpp(54,24): warning C4244: “初始化”: 从“boost::asio::detail::socket_type”转换到“unsigned long”，可能丢失数据
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(160,30): warning C4101: “e”: 未引用的局部变量
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(130): message : 查看对正在编译的函数 模板 实例化“void ur_sdk::connection::handle_read_data<T,Handler>(const boost::system::error_code &,T &,boost::tuples::tuple<Handler,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>)”的引用
+          with
+          [
+              T=ur_sdk::rt_client_obj,
+              Handler=boost::_bi::bind_t<void,boost::_mfi::mf1<void,ur_sdk::client,const boost::system::error_code &>,boost::_bi::list2<boost::_bi::value<ur_sdk::client *>,boost::arg<1>>>
+          ]
+D:\WORK\robotic_grasp\robotic_grasp\include\connection.hpp(95): message : 查看对正在编译的函数 模板 实例化“void ur_sdk::connection::handle_read_header<T,Handler>(const boost::system::error_code &,T &,boost::tuples::tuple<Handler,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>)”的引用
+          with
+          [
+              T=ur_sdk::rt_client_obj,
+              Handler=boost::_bi::bind_t<void,boost::_mfi::mf1<void,ur_sdk::client,const boost::system::error_code &>,boost::_bi::list2<boost::_bi::value<ur_sdk::client *>,boost::arg<1>>>
+          ]
+D:\WORK\robotic_grasp\robotic_grasp\src\ur_sdk.cpp(62): message : 查看对正在编译的函数 模板 实例化“void ur_sdk::connection::async_read<ur_sdk::rt_client_obj,boost::_bi::bind_t<void,boost::_mfi::mf1<void,ur_sdk::client,const boost::system::error_code &>,boost::_bi::list2<boost::_bi::value<T>,boost::arg<1>>>>(ur_sdk::rt_client_obj &,Handler)”的引用
+          with
+          [
+              T=ur_sdk::client *,
+              Handler=boost::_bi::bind_t<void,boost::_mfi::mf1<void,ur_sdk::client,const boost::system::error_code &>,boost::_bi::list2<boost::_bi::value<ur_sdk::client *>,boost::arg<1>>>
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(531,5): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(530): message : 在编译 类 模板 成员函数“void boost::asio::detail::buffer_debug_check<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>::operator ()(void)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1585): message : 查看对正在编译的函数 模板 实例化“void boost::asio::detail::buffer_debug_check<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>::operator ()(void)”的引用
+          with
+          [
+              _Elem=char
+          ]
+C:\3rdparties\boost_1_64_0_\boost\asio\buffer.hpp(1215): message : 查看对正在编译的 类 模板 实例化“boost::asio::detail::buffer_debug_check<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>>”的引用
+          with
+          [
+              _Elem=char
+          ]
+D:\WORK\robotic_grasp\robotic_grasp\src\ur_sdk.cpp(125): message : 查看对正在编译的函数 模板 实例化“boost::asio::const_buffers_1 boost::asio::buffer<char,std::char_traits<char>,std::allocator<char>>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)”的引用
+  main.cpp
+C:\3rdparties\eigen\Eigen\src\Core\arch\CUDA\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Unknown compiler version - please run the configure tests and report the results
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(57,46): error C2116: “GetSystemTimeAsFileTime”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h(110): message : 参见“GetSystemTimeAsFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(57,46): error C2733: “GetSystemTimeAsFileTime”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h(110,1): message : 参见“GetSystemTimeAsFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(58,45): error C2116: “FileTimeToLocalFileTime”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(183): message : 参见“FileTimeToLocalFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(58,45): error C2733: “FileTimeToLocalFileTime”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h(183,1): message : 参见“FileTimeToLocalFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(59,46): error C2116: “GetSystemTime”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h(102): message : 参见“GetSystemTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(59,46): error C2733: “GetSystemTime”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h(102,1): message : 参见“GetSystemTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(60,45): error C2116: “SystemTimeToFileTime”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\timezoneapi.h(93): message : 参见“SystemTimeToFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\date_time\filetime_functions.hpp(60,45): error C2733: “SystemTimeToFileTime”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\timezoneapi.h(93,1): message : 参见“SystemTimeToFileTime”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(173,55): error C2116: “CreateMutexA”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(422): message : 参见“CreateMutexA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(173,55): error C2733: “CreateMutexA”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(422,1): message : 参见“CreateMutexA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(174,55): error C2116: “CreateSemaphoreA”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(3170): message : 参见“CreateSemaphoreA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(174,55): error C2733: “CreateSemaphoreA”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(3170,1): message : 参见“CreateSemaphoreA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(175,55): error C2116: “CreateEventA”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(463): message : 参见“CreateEventA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(175,55): error C2733: “CreateEventA”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(463,1): message : 参见“CreateEventA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(177,55): error C2371: “GetModuleHandleA”: 重定义；不同的基类型
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(260): message : 参见“GetModuleHandleA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(177,55): error C2733: “GetModuleHandleA”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(260,1): message : 参见“GetModuleHandleA”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(197,59): error C2116: “GetProcAddress”: 不同声明之间的函数参数列表不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(342): message : 参见“GetProcAddress”的声明
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\thread_primitives.hpp(197,59): error C2733: “GetProcAddress”: 无法重载具有外部 "C" 链接的函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(342,1): message : 参见“GetProcAddress”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(142,77): warning C4275: 非 dll 接口 class“Pylon::CBaslerGigECameraEventHandler”用作 dll 接口 class“Robot::CEventHandler”的基
+C:\Program Files\Basler\pylon 6\Development\include\pylon\gige\BaslerGigECameraEventHandler.h(35): message : 参见“Pylon::CBaslerGigECameraEventHandler”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(142): message : 参见“Robot::CEventHandler”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(143,1): warning C4275: 非 dll 接口 class“Pylon::CBaslerGigEImageEventHandler”用作 dll 接口 class“Robot::CEventHandler”的基
+C:\Program Files\Basler\pylon 6\Development\include\pylon\gige\BaslerGigEImageEventHandler.h(35): message : 参见“Pylon::CBaslerGigEImageEventHandler”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(142): message : 参见“Robot::CEventHandler”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(258,26): warning C4251: “Robot::CEventHandler::m_log”: class“std::vector<Robot::LogItem,std::allocator<Robot::LogItem>>”需要有 dll 接口由 class“Robot::CEventHandler”的客户端使用
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(258): message : 参见“std::vector<Robot::LogItem,std::allocator<Robot::LogItem>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(263,25): warning C4251: “Robot::ImageBuffer::buffer”: class“std::vector<cv::Mat,std::allocator<cv::Mat>>”需要有 dll 接口由 struct“Robot::ImageBuffer”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(193): message : 参见“std::vector<cv::Mat,std::allocator<cv::Mat>>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(264,20): warning C4251: “Robot::ImageBuffer::write_pos”: struct“std::atomic<int>”需要有 dll 接口由 struct“Robot::ImageBuffer”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2866): message : 参见“std::atomic<int>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(312,12): warning C4251: “Robot::BaslerCamera::camera”: class“Pylon::CBaslerGigEInstantCamera”需要有 dll 接口由 class“Robot::BaslerCamera”的客户端使用
+C:\Program Files\Basler\pylon 6\Development\include\pylon\gige\BaslerGigEInstantCamera.h(83): message : 参见“Pylon::CBaslerGigEInstantCamera”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(316,23): warning C4251: “Robot::BaslerCamera::grabThread”: class“boost::thread”需要有 dll 接口由 class“Robot::BaslerCamera”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\thread\detail\thread.hpp(159): message : 参见“boost::thread”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(317,22): warning C4251: “Robot::BaslerCamera::imageMutex”: class“boost::mutex”需要有 dll 接口由 class“Robot::BaslerCamera”的客户端使用
+C:\3rdparties\boost_1_64_0_\boost\thread\win32\mutex.hpp(25): message : 参见“boost::mutex”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(366,19): warning C4251: “Robot::BaslerStereoCamera::R_ext”: class“Eigen::Matrix<double,3,3,0,3,3>”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,3,0,3,3>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(367,19): warning C4251: “Robot::BaslerStereoCamera::t_ext”: class“Eigen::Matrix<double,3,1,0,3,1>”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\eigen\Eigen\src\Core\Matrix.h(451): message : 参见“Eigen::Matrix<double,3,1,0,3,1>”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(370,11): warning C4251: “Robot::BaslerStereoCamera::left_rmap_1”: class“cv::Mat”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(370,24): warning C4251: “Robot::BaslerStereoCamera::left_rmap_2”: class“cv::Mat”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(371,11): warning C4251: “Robot::BaslerStereoCamera::right_rmap_1”: class“cv::Mat”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+D:\WORK\robotic_grasp\robotic_grasp\include\camera.h(371,25): warning C4251: “Robot::BaslerStereoCamera::right_rmap_2”: class“cv::Mat”需要有 dll 接口由 class“Robot::BaslerStereoCamera”的客户端使用
+C:\3rdparties\opencv\include\opencv2\core\mat.hpp(801): message : 参见“cv::Mat”的声明
+  正在生成代码...

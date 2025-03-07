@@ -1,0 +1,2 @@
+D:\WORK\robotic_grasp\robotic_grasp\demo_tracking\x64\Release\demo_tracking.vcxproj.CopyComplete
+E:\WORK\robotic_grasp\robotic_grasp\demo_tracking\x64\Release\demo_tracking.vcxproj.CopyComplete

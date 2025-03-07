@@ -1,0 +1,2 @@
+D:\WORK\robotic_grasp\robotic_grasp\handeye_calibration_realsense\x64\Release\handeye_calibration_realsense.vcxproj.CopyComplete
+E:\WORK\robotic_grasp\robotic_grasp\handeye_calibration_realsense\x64\Release\handeye_calibration_realsense.vcxproj.CopyComplete

@@ -1,0 +1,186 @@
+﻿  canAPI.cpp
+E:\WORK\robotic_grasp\robotic_grasp\src\allegro_hand\canAPI.cpp(28,10): fatal error C1083: 无法打开包括文件: “PCANBasic.h”: No such file or directory
+  myAllegroHand.cpp
+E:\WORK\robotic_grasp\robotic_grasp\src\allegro_hand\myAllegroHand.cpp(4,10): fatal error C1083: 无法打开包括文件: “..\include\alleprohand\stdafx.h”: No such file or directory
+  RockScissorsPaper.cpp
+E:\WORK\robotic_grasp\robotic_grasp\src\allegro_hand\RockScissorsPaper.cpp(1,10): fatal error C1083: 无法打开包括文件: “..\include\alleprohand\rDeviceAllegroHandCANDef.h”: No such file or directory
+  stdafx.cpp
+E:\WORK\robotic_grasp\robotic_grasp\src\allegro_hand\stdafx.cpp(5,10): fatal error C1083: 无法打开包括文件: “..\include\alleprohand\stdafx.h”: No such file or directory
+  CANTest.cpp
+E:\WORK\robotic_grasp\robotic_grasp\src\touch_sensor\CANTest.cpp(25,10): fatal error C1083: 无法打开包括文件: “..\include\touch_sensor\ControlCAN.h”: No such file or directory
+  CANTest2.cpp
+E:\WORK\robotic_grasp\robotic_grasp\src\touch_sensor\CANTest2.cpp(25,10): fatal error C1083: 无法打开包括文件: “..\include\touch_sensor\ControlCAN.h”: No such file or directory
+  collision.cpp
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(760,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(877,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1002,31): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1021,35): warning C4305: “初始化”: 从“double”到“ccd_real_t”截断
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1405,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1733,33): warning C4244: “=”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2390,17): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2397,20): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2396,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,45): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\collision.h(24,10): fatal error C1083: 无法打开包括文件: “cartesian_space_track_ur.h”: No such file or directory
+  collision_det.cpp
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(760,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(877,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1002,31): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1021,35): warning C4305: “初始化”: 从“double”到“ccd_real_t”截断
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1405,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1733,33): warning C4244: “=”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2390,17): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2397,20): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2396,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,45): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\collision_det.h(23,10): fatal error C1083: 无法打开包括文件: “cartesian_space_track_ur.h”: No such file or directory
+  collision_dualarm.cpp
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(760,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(877,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1002,31): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1021,35): warning C4305: “初始化”: 从“double”到“ccd_real_t”截断
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1405,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1733,33): warning C4244: “=”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2390,17): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2397,20): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2396,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,45): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\collision_dualarm.h(24,10): fatal error C1083: 无法打开包括文件: “cartesian_space_track_ur.h”: No such file or directory
+  path_generator.cpp
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\path_generator.h(6,10): fatal error C1083: 无法打开包括文件: “cartesian_space_track_ur.h”: No such file or directory
+  planner_cartisian.cpp
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\base\ProblemDefinition.h(209,1): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\rrt\RRT.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\rrt\LazyRRT.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(760,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(877,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1002,31): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1021,35): warning C4305: “初始化”: 从“double”到“ccd_real_t”截断
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1405,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1733,33): warning C4244: “=”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2390,17): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2397,20): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2396,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,45): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\planner_cartisian.h(46,10): fatal error C1083: 无法打开包括文件: “cartesian_space_track_ur.h”: No such file or directory
+  planner_joint.cpp
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\base\ProblemDefinition.h(209,1): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\rrt\RRT.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\rrt\RRTConnect.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\rrt\LazyRRT.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\informedtrees\ABITstar.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\PRMstar.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\PRM.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\PRM.h(278,1): warning C4267: “return”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\PRM.h(284,1): warning C4267: “return”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\kpiece\LBKPIECE1.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\LazyPRMstar.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\LazyPRM.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\LazyPRM.h(226,1): warning C4267: “return”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\LazyPRM.h(232,1): warning C4267: “return”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\sbl\SBL.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\sbl\SBL.h(195,1): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(760,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(877,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1002,31): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1021,35): warning C4305: “初始化”: 从“double”到“ccd_real_t”截断
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1405,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1733,33): warning C4244: “=”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2390,17): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2397,20): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2396,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,45): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\planner_joint.h(55,10): fatal error C1083: 无法打开包括文件: “cartesian_space_track_ur.h”: No such file or directory
+  planner_joint_dualarm.cpp
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\base\ProblemDefinition.h(209,1): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\rrt\RRT.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\rrt\RRTConnect.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\rrt\LazyRRT.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\informedtrees\ABITstar.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\PRMstar.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\PRM.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\PRM.h(278,1): warning C4267: “return”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\PRM.h(284,1): warning C4267: “return”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\kpiece\LBKPIECE1.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\LazyPRMstar.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\LazyPRM.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\LazyPRM.h(226,1): warning C4267: “return”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\prm\LazyPRM.h(232,1): warning C4267: “return”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\sbl\SBL.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\ompl\geometric\planners\sbl\SBL.h(195,1): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\geometry\shape\convex.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\primitive_shape_algorithm\capsule_capsule.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(760,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(877,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1002,31): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1021,35): warning C4305: “初始化”: 从“double”到“ccd_real_t”截断
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1405,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(1733,33): warning C4244: “=”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2390,17): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2397,20): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2396,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,45): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+C:\src\vcpkg\installed\x64-windows\include\fcl\narrowphase\detail\convexity_based_algorithm\gjk_libccd-inl.h(2428,23): warning C4244: “参数”: 从“double”转换到“ccd_real_t”，可能丢失数据
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\planner_joint_dualarm.h(55,10): fatal error C1083: 无法打开包括文件: “cartesian_space_track_ur.h”: No such file or directory
+  realsense_position.cpp
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\realsense_position.h(2,10): fatal error C1083: 无法打开包括文件: “librealsense2/rs.hpp”: No such file or directory
+  ur_trajectory_proj.cpp
+E:\WORK\robotic_grasp\robotic_grasp\ur_trajectory_proj\ur_trajectory_proj.cpp(7,10): fatal error C1083: 无法打开包括文件: “cartesian_space_track_ur.h”: No such file or directory
+  正在生成代码...

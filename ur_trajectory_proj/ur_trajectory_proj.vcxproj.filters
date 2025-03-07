@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\alleproHand">
+      <UniqueIdentifier>{0479a3d0-caa1-42d6-a34d-cbce2420ab73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\alleproHand">
+      <UniqueIdentifier>{3542ce19-4564-4d0b-983a-6980d08e3846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\touchSensor">
+      <UniqueIdentifier>{a1d922d3-0c1f-4f2d-9106-d211befef1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\touchSensor">
+      <UniqueIdentifier>{7f6e451c-1157-4e3e-bb16-909908d3c97b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ur_trajectory_proj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\allegro_hand\canAPI.cpp">
+      <Filter>源文件\alleproHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\allegro_hand\myAllegroHand.cpp">
+      <Filter>源文件\alleproHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\allegro_hand\RockScissorsPaper.cpp">
+      <Filter>源文件\alleproHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\allegro_hand\stdafx.cpp">
+      <Filter>源文件\alleproHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\touch_sensor\CANTest.cpp">
+      <Filter>源文件\touchSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\touch_sensor\CANTest2.cpp">
+      <Filter>源文件\touchSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_det.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="planner_joint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="path_generator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="planner_cartisian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="realsense_position.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="planner_joint_dualarm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_dualarm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="planner_joint_arm_dog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\alleprohand\BHand.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\BHandDef.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\canAPI.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\canDef.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\myAllegroHand.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\PCANBasic.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\rDeviceAllegroHandCANDef.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\RockScissorsPaper.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\rPanelManipulatorCmd.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\rPanelManipulatorCmdUtil.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\stdafx.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\alleprohand\targetver.h">
+      <Filter>头文件\alleproHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\touch_sensor\ControlCAN.h">
+      <Filter>头文件\touchSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_det.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="planner_joint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="path_generator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="planner_cartisian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="realsense_position.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="planner_joint_dualarm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_dualarm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="planner_joint_arm_dog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

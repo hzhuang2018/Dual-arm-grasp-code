@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\vcpkg.C.src.vcpkg.1.0.0\build\native\vcpkg.C.src.vcpkg.props" Condition="Exists('..\packages\vcpkg.C.src.vcpkg.1.0.0\build\native\vcpkg.C.src.vcpkg.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7d4defdb-ca3e-43a6-8a2a-e32a0f7cf079}</ProjectGuid>
+    <RootNamespace>urtrajectoryproj</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\WORK\robotic_grasp\robotic_grasp\include;C:\Program Files %28x86%29\Intel RealSense SDK 2.0\include;$(IncludePath);E:\WORK\robotic_grasp\robotic_grasp\include\alleprohand</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Intel RealSense SDK 2.0\lib\x64;$(LibraryPath);E:\WORK\robotic_grasp\robotic_grasp\lib\BHand;E:\WORK\robotic_grasp\robotic_grasp\lib\Peak</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;PEAKCAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(OPENCV_INCLUDE_DIRS);$(EIGEN_INCLUDE_DIRS);$(PYLON_INCLUDE_DIRS);..\include;C:\Program Files\Basler\pylon 6\Development\include</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\WORK\robotic_grasp\robotic_grasp\lib;E:\WORK\robotic_grasp\robotic_grasp\lib\BHand;E:\WORK\robotic_grasp\robotic_grasp\lib\Peak;$(OPENCV_LIBRARIES_DIRS);$(PYLON_LIBRARIES_DIRS);..\x64\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ginkgo_Driver_x64.lib;PCANBasic.lib;libBHand_x64.lib;opencv_highgui453.lib;opencv_imgproc453.lib;opencv_imgcodecs453.lib;opencv_core453.lib;opencv_calib3d453.lib;robotic_grasp.lib;realsense2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>PCANBasic.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\allegro_hand\canAPI.cpp" />
+    <ClCompile Include="..\src\allegro_hand\myAllegroHand.cpp" />
+    <ClCompile Include="..\src\allegro_hand\RockScissorsPaper.cpp" />
+    <ClCompile Include="..\src\allegro_hand\stdafx.cpp" />
+    <ClCompile Include="..\src\touch_sensor\CANTest.cpp" />
+    <ClCompile Include="..\src\touch_sensor\CANTest2.cpp" />
+    <ClCompile Include="collision.cpp" />
+    <ClCompile Include="collision_det.cpp" />
+    <ClCompile Include="collision_dualarm.cpp" />
+    <ClCompile Include="path_generator.cpp" />
+    <ClCompile Include="planner_cartisian.cpp" />
+    <ClCompile Include="planner_joint.cpp" />
+    <ClCompile Include="planner_joint_arm_dog.cpp" />
+    <ClCompile Include="planner_joint_dualarm.cpp" />
+    <ClCompile Include="realsense_position.cpp" />
+    <ClCompile Include="ur_trajectory_proj.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\alleprohand\BHand.h" />
+    <ClInclude Include="..\include\alleprohand\BHandDef.h" />
+    <ClInclude Include="..\include\alleprohand\canAPI.h" />
+    <ClInclude Include="..\include\alleprohand\canDef.h" />
+    <ClInclude Include="..\include\alleprohand\myAllegroHand.h" />
+    <ClInclude Include="..\include\alleprohand\PCANBasic.h" />
+    <ClInclude Include="..\include\alleprohand\rDeviceAllegroHandCANDef.h" />
+    <ClInclude Include="..\include\alleprohand\RockScissorsPaper.h" />
+    <ClInclude Include="..\include\alleprohand\rPanelManipulatorCmd.h" />
+    <ClInclude Include="..\include\alleprohand\rPanelManipulatorCmdUtil.h" />
+    <ClInclude Include="..\include\alleprohand\stdafx.h" />
+    <ClInclude Include="..\include\alleprohand\targetver.h" />
+    <ClInclude Include="..\include\touch_sensor\ControlCAN.h" />
+    <ClInclude Include="collision.h" />
+    <ClInclude Include="collision_det.h" />
+    <ClInclude Include="collision_dualarm.h" />
+    <ClInclude Include="path_generator.h" />
+    <ClInclude Include="planner_cartisian.h" />
+    <ClInclude Include="planner_joint.h" />
+    <ClInclude Include="planner_joint_arm_dog.h" />
+    <ClInclude Include="planner_joint_dualarm.h" />
+    <ClInclude Include="realsense_position.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\vcpkg.C.src.vcpkg.1.0.0\build\native\vcpkg.C.src.vcpkg.targets" Condition="Exists('..\packages\vcpkg.C.src.vcpkg.1.0.0\build\native\vcpkg.C.src.vcpkg.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\vcpkg.C.src.vcpkg.1.0.0\build\native\vcpkg.C.src.vcpkg.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\vcpkg.C.src.vcpkg.1.0.0\build\native\vcpkg.C.src.vcpkg.props'))" />
+    <Error Condition="!Exists('..\packages\vcpkg.C.src.vcpkg.1.0.0\build\native\vcpkg.C.src.vcpkg.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\vcpkg.C.src.vcpkg.1.0.0\build\native\vcpkg.C.src.vcpkg.targets'))" />
+  </Target>
+</Project>
